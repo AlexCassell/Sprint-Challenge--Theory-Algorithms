@@ -29,7 +29,7 @@ I hope this is not too simple
   1999-1-20
   1999-01-20
 
-  ([12]\d{3}-(0[1-9]|1[0-2]|[1-9])-(0[1-9]|[12]\d|3[01]))
+  ([12]\d{3}-(0[1-9]|1[0-2]|[1-9])-(0[1-9]|[12]\d))
 
   works for top three, will have to come back and try to get the last one to work
 
@@ -45,11 +45,11 @@ I hope this is not too simple
       ab*c+d?[ef]
 
   Remember the ε transition can be used to move between states without
-  consuming input. 
+  consuming input. /done
 
 * A lion can be sleeping, eating, hunting, or preening. Draw a state
   machine diagram for the lion and label the transition events that
-  cause state transitions.
+  cause state transitions. /done
 
 * The VT-100 terminal (console) outputs text to the screen as it
   receives it over the wire. One exception is that when it receives an
