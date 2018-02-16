@@ -9,12 +9,14 @@ both `antelope` and `antelopes`.)
 
     antelope rocks out
     antelopes rock out
+I hope this is not too simple
+    \b(antelope rocks out|antelope rock out)\b
 
 * Regex that matches either of:
 
     goat
     moat
-
+  \b(goat|moat)\b
   but not:
 
     boat
@@ -26,6 +28,11 @@ both `antelope` and `antelopes`.)
   2000-10-12
   1999-1-20
   1999-01-20
+
+  ([12]\d{3}-(0[1-9]|1[0-2]|[1-9])-(0[1-9]|[12]\d|3[01]))
+
+  works for top three, will have to come back and try to get the last one to work
+
   812-2-10
 
 ## State Machines
