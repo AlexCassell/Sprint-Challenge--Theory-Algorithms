@@ -16,7 +16,7 @@ O(sqrt(n))
 
 d) sum = 0; for (i = 1; i < n; i *= 2) for (j = 0; j < n; j++) sum++;
 
-O(n^2)?
+O(nlogn)
 
 e) sum = 0; for (i = 0; i < n; i++) for (j = i + 1; j < n; j++) for (k = j + 1; 
 k < n; k++) for (l = k + 1; l < 10 + k; l++) sum++;
